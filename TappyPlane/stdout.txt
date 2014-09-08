@@ -1,0 +1,2 @@
+The previous best score is: 13 
+The image file: Resource/SpriteSheet/sheet.png loaded! 

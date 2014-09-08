@@ -1,0 +1,239 @@
+# depslib dependency file v1.0
+1410038571 source:e:\codeblocks_gameworkspace\tappyplane\core\graphics.cpp
+	"Graphics.h"
+
+1410038545 source:e:\codeblocks_gameworkspace\tappyplane\core\image.cpp
+	"Image.h"
+
+1410038685 source:e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1410038746 source:e:\codeblocks_gameworkspace\tappyplane\entity\entity.cpp
+	"Entity.h"
+
+1410034164 source:e:\codeblocks_gameworkspace\tappyplane\main\main.cpp
+	"TappyPlane.h"
+
+1410039869 source:e:\codeblocks_gameworkspace\tappyplane\state\gamestate.cpp
+	"GameState.h"
+
+1410034419 source:e:\codeblocks_gameworkspace\tappyplane\core\input.cpp
+	"Input.h"
+
+1410034424 e:\codeblocks_gameworkspace\tappyplane\core\input.h
+	<SDL/SDL.h>
+
+1410034680 source:e:\codeblocks_gameworkspace\tappyplane\core\timer.cpp
+	"Timer.h"
+
+1410034671 e:\codeblocks_gameworkspace\tappyplane\core\timer.h
+	<SDL/SDL.h>
+	<iostream>
+
+1410038736 source:e:\codeblocks_gameworkspace\tappyplane\entity\controlledentity.cpp
+	"ControlledEntity.h"
+
+1410038787 source:e:\codeblocks_gameworkspace\tappyplane\entity\movingentity.cpp
+	"MovingEntity.h"
+
+1410200896 source:e:\codeblocks_gameworkspace\tappyplane\core\game.cpp
+	"Game.h"
+
+1410200905 e:\codeblocks_gameworkspace\tappyplane\core\game.h
+	"Graphics.h"
+	"Image.h"
+	"Input.h"
+	"OutlineFont.h"
+	"Timer.h"
+	<string>
+
+1410034520 e:\codeblocks_gameworkspace\tappyplane\core\graphics.h
+	<SDL/SDL.h>
+
+1410037592 e:\codeblocks_gameworkspace\tappyplane\core\image.h
+	"Graphics.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+
+1410038631 e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.h
+	"Graphics.h"
+	<SDL/SDL_ttf.h>
+	<SDL/SDL.h>
+	<string>
+
+1410210320 source:e:\codeblocks_gameworkspace\tappyplane\entity\ground.cpp
+	"Ground.h"
+
+1410210172 e:\codeblocks_gameworkspace\tappyplane\entity\ground.h
+	"MovingEntity.h"
+	<vector>
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1410037790 e:\codeblocks_gameworkspace\tappyplane\entity\movingentity.h
+	"../Core/Image.h"
+	"../Core/Graphics.h"
+	"Entity.h"
+
+1410034950 e:\codeblocks_gameworkspace\tappyplane\entity\entity.h
+
+1410200749 source:e:\codeblocks_gameworkspace\tappyplane\entity\northsouthrock.cpp
+	"NorthSouthRock.h"
+
+1410164244 source:e:\codeblocks_gameworkspace\tappyplane\entity\plane.cpp
+	"Plane.h"
+
+1410046300 source:e:\codeblocks_gameworkspace\tappyplane\entity\rock.cpp
+	"Rock.h"
+
+1410211053 source:e:\codeblocks_gameworkspace\tappyplane\entity\rockmanager.cpp
+	"RockManager.h"
+
+1410114706 e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.h
+	"../Core/Game.h"
+	"../Entity/Background.h"
+	"../Entity/Plane.h"
+	"../Entity/Ground.h"
+	"../Entity/RockManager.h"
+	"../State/StateManager.h"
+	"../State/ReadyState.h"
+	"../State/RunState.h"
+	"../State/GameOverState.h"
+	"../UI/PlayerScore.h"
+
+1410158231 e:\codeblocks_gameworkspace\tappyplane\entity\plane.h
+	"ControlledEntity.h"
+	"PuffCloud.h"
+	<vector>
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1410038127 e:\codeblocks_gameworkspace\tappyplane\entity\controlledentity.h
+	"../Core/Graphics.h"
+	"../Core/Image.h"
+	"../Core/Input.h"
+	"Entity.h"
+
+1410210985 e:\codeblocks_gameworkspace\tappyplane\entity\rockmanager.h
+	"NorthSouthRock.h"
+	<vector>
+
+1410200423 e:\codeblocks_gameworkspace\tappyplane\entity\northsouthrock.h
+	"Rock.h"
+	<vector>
+	<iostream>
+
+1410046244 e:\codeblocks_gameworkspace\tappyplane\entity\rock.h
+	"MovingEntity.h"
+
+1410038021 e:\codeblocks_gameworkspace\tappyplane\state\statemanager.h
+	"../Core/Graphics.h"
+	"GameState.h"
+	<vector>
+
+1410038095 e:\codeblocks_gameworkspace\tappyplane\state\gamestate.h
+	"StateManager.h"
+
+1410142617 e:\codeblocks_gameworkspace\tappyplane\state\readystate.h
+	"../Core/Graphics.h"
+	"../Core/Image.h"
+	"../Core/Input.h"
+	"../Core/OutlineFont.h"
+	"GameState.h"
+	"../Entity/Background.h"
+	"../Entity/Plane.h"
+	"../Entity/Ground.h"
+
+1410142601 e:\codeblocks_gameworkspace\tappyplane\state\runstate.h
+	"../Core/Graphics.h"
+	"../Core/Image.h"
+	"../Core/Input.h"
+	"../Core/OutlineFont.h"
+	"GameState.h"
+	"../Entity/Background.h"
+	"../Entity/Plane.h"
+	"../Entity/Ground.h"
+	"../Entity/RockManager.h"
+	"../Entity/CollisionDetection.h"
+	"../UI/PlayerScore.h"
+
+1410210229 source:e:\codeblocks_gameworkspace\tappyplane\state\readystate.cpp
+	"ReadyState.h"
+
+1410211067 source:e:\codeblocks_gameworkspace\tappyplane\state\runstate.cpp
+	"RunState.h"
+
+1410045871 source:e:\codeblocks_gameworkspace\tappyplane\state\statemanager.cpp
+	"StateManager.h"
+
+1410116242 source:e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.cpp
+	"TappyPlane.h"
+
+1410048706 e:\codeblocks_gameworkspace\tappyplane\entity\puffcloud.h
+	"../Core/Graphics.h"
+	"../Core/Image.h"
+	"../Core/Input.h"
+	"Entity.h"
+
+1410049500 source:e:\codeblocks_gameworkspace\tappyplane\entity\puffcloud.cpp
+	"PuffCloud.h"
+
+1410115411 source:e:\codeblocks_gameworkspace\tappyplane\state\gameoverstate.cpp
+	"GameOverState.h"
+
+1410142872 e:\codeblocks_gameworkspace\tappyplane\state\gameoverstate.h
+	"../Core//Graphics.h"
+	"../Core/Image.h"
+	"../Core/Input.h"
+	"../Core/OutlineFont.h"
+	"GameState.h"
+	"../Entity/Background.h"
+	"../Entity/Plane.h"
+	"../Entity/Ground.h"
+	"../Entity/RockManager.h"
+	"../Entity/CollisionDetection.h"
+	"../UI/PlayerScore.h"
+
+1410034520 e:\codeblocks_gameworkspace\tappyplane\core\\graphics.h
+	<SDL/SDL.h>
+
+1410067846 e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.h
+	"../Core/Image.h"
+	"../Core/Graphics.h"
+	"../Core//OutlineFont.h"
+	"../Entity/NorthSouthRock.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1410038631 e:\codeblocks_gameworkspace\tappyplane\core\\outlinefont.h
+	"Graphics.h"
+	<SDL/SDL_ttf.h>
+	<SDL/SDL.h>
+	<string>
+
+1410115668 source:e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.cpp
+	"PlayerScore.h"
+
+1410114620 source:e:\codeblocks_gameworkspace\tappyplane\entity\background.cpp
+	"Background.h"
+
+1410114636 e:\codeblocks_gameworkspace\tappyplane\entity\background.h
+	"../Core/Graphics.h"
+	"../Core/Image.h"
+	"Entity.h"
+
+1410211327 source:e:\codeblocks_gameworkspace\tappyplane\entity\collisiondetection.cpp
+	"CollisionDetection.h"
+
+1410211196 e:\codeblocks_gameworkspace\tappyplane\entity\collisiondetection.h
+	<SDL/SDL.h>
+	"../Core/Graphics.h"
+	"Plane.h"
+	"Ground.h"
+	"NorthSouthRock.h"
+	<vector>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TappyPlane" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="TappyPlane" prefix_auto="1" extension_auto="1" />
+				<Option object_output="E:/Codeblocks_GameWorkspace/TappyPlane/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="TappyPlane" prefix_auto="1" extension_auto="1" />
+				<Option object_output="E:/Codeblocks_GameWorkspace/TappyPlane/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Core/Game.cpp" />
+		<Unit filename="Core/Game.h" />
+		<Unit filename="Core/Graphics.cpp" />
+		<Unit filename="Core/Graphics.h" />
+		<Unit filename="Core/Image.cpp" />
+		<Unit filename="Core/Image.h" />
+		<Unit filename="Core/Input.cpp" />
+		<Unit filename="Core/Input.h" />
+		<Unit filename="Core/OutlineFont.cpp" />
+		<Unit filename="Core/OutlineFont.h" />
+		<Unit filename="Core/Timer.cpp" />
+		<Unit filename="Core/Timer.h" />
+		<Unit filename="Entity/Background.cpp" />
+		<Unit filename="Entity/Background.h" />
+		<Unit filename="Entity/CollisionDetection.cpp" />
+		<Unit filename="Entity/CollisionDetection.h" />
+		<Unit filename="Entity/ControlledEntity.cpp" />
+		<Unit filename="Entity/ControlledEntity.h" />
+		<Unit filename="Entity/Entity.cpp" />
+		<Unit filename="Entity/Entity.h" />
+		<Unit filename="Entity/Ground.cpp" />
+		<Unit filename="Entity/Ground.h" />
+		<Unit filename="Entity/MovingEntity.cpp" />
+		<Unit filename="Entity/MovingEntity.h" />
+		<Unit filename="Entity/NorthSouthRock.cpp" />
+		<Unit filename="Entity/NorthSouthRock.h" />
+		<Unit filename="Entity/Plane.cpp" />
+		<Unit filename="Entity/Plane.h" />
+		<Unit filename="Entity/PuffCloud.cpp" />
+		<Unit filename="Entity/PuffCloud.h" />
+		<Unit filename="Entity/Rock.cpp" />
+		<Unit filename="Entity/Rock.h" />
+		<Unit filename="Entity/RockManager.cpp" />
+		<Unit filename="Entity/RockManager.h" />
+		<Unit filename="Main/TappyPlane.cpp" />
+		<Unit filename="Main/TappyPlane.h" />
+		<Unit filename="Main/main.cpp" />
+		<Unit filename="State/GameOverState.cpp" />
+		<Unit filename="State/GameOverState.h" />
+		<Unit filename="State/GameState.cpp" />
+		<Unit filename="State/GameState.h" />
+		<Unit filename="State/ReadyState.cpp" />
+		<Unit filename="State/ReadyState.h" />
+		<Unit filename="State/RunState.cpp" />
+		<Unit filename="State/RunState.h" />
+		<Unit filename="State/StateManager.cpp" />
+		<Unit filename="State/StateManager.h" />
+		<Unit filename="UI/PlayerScore.cpp" />
+		<Unit filename="UI/PlayerScore.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
