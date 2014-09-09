@@ -1,20 +1,22 @@
 #ifndef TAPPYPLANE_H_
 #define TAPPYPLANE_H_
 
+//Core
 #include "../Core/Game.h"
 
-//Entities
+//Entity
 #include "../Entity/Background.h"
 #include "../Entity/Plane.h"
 #include "../Entity/Ground.h"
 #include "../Entity/RockManager.h"
 
-//The states
+//State
 #include "../State/StateManager.h"
 #include "../State/ReadyState.h"
 #include "../State/RunState.h"
 #include "../State/GameOverState.h"
 
+//UI
 #include "../UI/PlayerScore.h"
 
 class TappyPlane : public Game

@@ -108,19 +108,6 @@ void Game::quitGame()
     isRunning_ = false;
 }
 
-/*
- * Use to regulate the fps of the game
- *
- */
-void Game::delay(int delayTime)
-{
-    if (delayTime > 0)
-    {
-        SDL_Delay(delayTime);
-    }
-
-}
-
 
 /*
  * Returns the graphics object to be used to draw objects into the buffer
@@ -151,6 +138,9 @@ OutlineFont* Game::getOutlineFont()
     return &outlineFont_;
 }
 
+/********************************
+        Virtual Methods
+********************************/
 bool Game::init()
 {
 

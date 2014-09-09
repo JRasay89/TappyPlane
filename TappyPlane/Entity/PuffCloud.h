@@ -9,8 +9,8 @@
 //Entity
 #include "Entity.h"
 
-class PuffCloud : public Entity {
-
+class PuffCloud : public Entity
+{
 private:
     int frameCounter_;
     int elapseTime_;

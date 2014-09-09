@@ -1,6 +1,7 @@
 #include "PlayerScore.h"
 
-namespace {
+namespace
+{
     //The width and height of the score background
     const int SCORE_BG_WIDTH = 264;
     const int SCORE_BG_HEIGHT = 264;
@@ -30,7 +31,8 @@ namespace {
 /*
  * Player Score Constructor
  */
-PlayerScore::PlayerScore() {
+PlayerScore::PlayerScore()
+{
     score_ = 0;
     //Get the current best score in the game which is recorded in a text file
     ifstream IscoreFile("Resource/PlayerScore/PlayerScore.txt");
@@ -42,7 +44,8 @@ PlayerScore::PlayerScore() {
 }
 
 //Increase the player score if the player pass the rock without touching it
-void PlayerScore::updateScore(int planeOffsetX, std::vector<NorthSouthRock>& rocks) {
+void PlayerScore::updateScore(int planeOffsetX, std::vector<NorthSouthRock>& rocks)
+{
 
     //Check if rock vector is empty
     if (!rocks.empty())
@@ -89,6 +92,7 @@ void PlayerScore::drawScore(Graphics* graphics, OutlineFont* outlineFont)
         outlineFont->drawOutlineText(ss.str(),400,0,0,0,0,graphics);
     }
 }
+
 void PlayerScore::drawFinalScore(Graphics* graphics, Image* image, OutlineFont* outlineFont)
 {
     image->draw(200,20,0,835,412,78,graphics);

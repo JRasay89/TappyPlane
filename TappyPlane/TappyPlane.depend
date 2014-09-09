@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1410038571 source:e:\codeblocks_gameworkspace\tappyplane\core\graphics.cpp
+1410286081 source:e:\codeblocks_gameworkspace\tappyplane\core\graphics.cpp
 	"Graphics.h"
 
-1410038545 source:e:\codeblocks_gameworkspace\tappyplane\core\image.cpp
+1410286130 source:e:\codeblocks_gameworkspace\tappyplane\core\image.cpp
 	"Image.h"
 
-1410038685 source:e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.cpp
+1410286147 source:e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.cpp
 	"OutlineFont.h"
 
 1410038746 source:e:\codeblocks_gameworkspace\tappyplane\entity\entity.cpp
@@ -17,18 +17,17 @@
 1410039869 source:e:\codeblocks_gameworkspace\tappyplane\state\gamestate.cpp
 	"GameState.h"
 
-1410034419 source:e:\codeblocks_gameworkspace\tappyplane\core\input.cpp
+1410281255 source:e:\codeblocks_gameworkspace\tappyplane\core\input.cpp
 	"Input.h"
 
-1410034424 e:\codeblocks_gameworkspace\tappyplane\core\input.h
+1410281078 e:\codeblocks_gameworkspace\tappyplane\core\input.h
 	<SDL/SDL.h>
 
-1410034680 source:e:\codeblocks_gameworkspace\tappyplane\core\timer.cpp
+1410286170 source:e:\codeblocks_gameworkspace\tappyplane\core\timer.cpp
 	"Timer.h"
 
-1410034671 e:\codeblocks_gameworkspace\tappyplane\core\timer.h
+1410286204 e:\codeblocks_gameworkspace\tappyplane\core\timer.h
 	<SDL/SDL.h>
-	<iostream>
 
 1410038736 source:e:\codeblocks_gameworkspace\tappyplane\entity\controlledentity.cpp
 	"ControlledEntity.h"
@@ -36,10 +35,10 @@
 1410038787 source:e:\codeblocks_gameworkspace\tappyplane\entity\movingentity.cpp
 	"MovingEntity.h"
 
-1410200896 source:e:\codeblocks_gameworkspace\tappyplane\core\game.cpp
+1410281347 source:e:\codeblocks_gameworkspace\tappyplane\core\game.cpp
 	"Game.h"
 
-1410200905 e:\codeblocks_gameworkspace\tappyplane\core\game.h
+1410281342 e:\codeblocks_gameworkspace\tappyplane\core\game.h
 	"Graphics.h"
 	"Image.h"
 	"Input.h"
@@ -47,7 +46,7 @@
 	"Timer.h"
 	<string>
 
-1410034520 e:\codeblocks_gameworkspace\tappyplane\core\graphics.h
+1410281087 e:\codeblocks_gameworkspace\tappyplane\core\graphics.h
 	<SDL/SDL.h>
 
 1410037592 e:\codeblocks_gameworkspace\tappyplane\core\image.h
@@ -56,7 +55,7 @@
 	<SDL/SDL_image.h>
 	<string>
 
-1410038631 e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.h
+1410281072 e:\codeblocks_gameworkspace\tappyplane\core\outlinefont.h
 	"Graphics.h"
 	<SDL/SDL_ttf.h>
 	<SDL/SDL.h>
@@ -91,7 +90,7 @@
 1410211053 source:e:\codeblocks_gameworkspace\tappyplane\entity\rockmanager.cpp
 	"RockManager.h"
 
-1410114706 e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.h
+1410281569 e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.h
 	"../Core/Game.h"
 	"../Entity/Background.h"
 	"../Entity/Plane.h"
@@ -134,10 +133,10 @@
 	"GameState.h"
 	<vector>
 
-1410038095 e:\codeblocks_gameworkspace\tappyplane\state\gamestate.h
+1410280961 e:\codeblocks_gameworkspace\tappyplane\state\gamestate.h
 	"StateManager.h"
 
-1410142617 e:\codeblocks_gameworkspace\tappyplane\state\readystate.h
+1410280986 e:\codeblocks_gameworkspace\tappyplane\state\readystate.h
 	"../Core/Graphics.h"
 	"../Core/Image.h"
 	"../Core/Input.h"
@@ -169,10 +168,10 @@
 1410045871 source:e:\codeblocks_gameworkspace\tappyplane\state\statemanager.cpp
 	"StateManager.h"
 
-1410116242 source:e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.cpp
+1410281496 source:e:\codeblocks_gameworkspace\tappyplane\main\tappyplane.cpp
 	"TappyPlane.h"
 
-1410048706 e:\codeblocks_gameworkspace\tappyplane\entity\puffcloud.h
+1410281030 e:\codeblocks_gameworkspace\tappyplane\entity\puffcloud.h
 	"../Core/Graphics.h"
 	"../Core/Image.h"
 	"../Core/Input.h"
@@ -197,10 +196,10 @@
 	"../Entity/CollisionDetection.h"
 	"../UI/PlayerScore.h"
 
-1410034520 e:\codeblocks_gameworkspace\tappyplane\core\\graphics.h
+1410281087 e:\codeblocks_gameworkspace\tappyplane\core\\graphics.h
 	<SDL/SDL.h>
 
-1410067846 e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.h
+1410280969 e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.h
 	"../Core/Image.h"
 	"../Core/Graphics.h"
 	"../Core//OutlineFont.h"
@@ -209,13 +208,13 @@
 	<iostream>
 	<fstream>
 
-1410038631 e:\codeblocks_gameworkspace\tappyplane\core\\outlinefont.h
+1410281072 e:\codeblocks_gameworkspace\tappyplane\core\\outlinefont.h
 	"Graphics.h"
 	<SDL/SDL_ttf.h>
 	<SDL/SDL.h>
 	<string>
 
-1410115668 source:e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.cpp
+1410281119 source:e:\codeblocks_gameworkspace\tappyplane\ui\playerscore.cpp
 	"PlayerScore.h"
 
 1410114620 source:e:\codeblocks_gameworkspace\tappyplane\entity\background.cpp

@@ -27,7 +27,8 @@ bool Graphics::init(int width, int height, bool fullScreen)
 void Graphics::clear(int r, int g, int b)
 {
 
-    if(backBuffer_ == NULL) {
+    if(backBuffer_ == NULL)
+    {
         return;
     }
 

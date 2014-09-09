@@ -10,7 +10,8 @@
 #include <string>
 using namespace std;
 
-class Game {
+class Game
+{
 private:
     Graphics graphics_;
     Image spriteSheet_;
@@ -26,7 +27,7 @@ public:
     void run();
     void freeSystem();
     void quitGame();
-    void delay(int delayTime);
+
 
     //Getter Methods
     Graphics* getGraphics();

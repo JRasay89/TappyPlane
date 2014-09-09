@@ -19,16 +19,7 @@ void Timer::setDeltaTimer()
 
 int Timer::getDeltaTime()
 {
-    //std::cout << "Delta Time is: "<< deltaTime_ << std::endl;
-
     return deltaTime_;
 
 
-}
-
-int Timer::getDelayTime(int fps) {
-
-    delayTime_ = (1000/fps) - deltaTime_;
-    //std::cout << "Delay Time is: "<< delayTime_ << std::endl;
-    return delayTime_;
 }

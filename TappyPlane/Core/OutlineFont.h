@@ -8,8 +8,9 @@
 
 #include <string>
 using namespace std;
-class OutlineFont {
 
+class OutlineFont
+{
 private:
     TTF_Font* font_;
 public:

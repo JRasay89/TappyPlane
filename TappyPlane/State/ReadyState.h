@@ -15,10 +15,6 @@
 #include "../Entity/Plane.h"
 #include "../Entity/Ground.h"
 
-
-
-
-
 class ReadyState : public GameState
 {
 private:

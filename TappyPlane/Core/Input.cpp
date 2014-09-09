@@ -4,11 +4,12 @@ void Input::init()
 {
     Uint8* keyBoard = SDL_GetKeyState(&numKeys_);
 
-    //printf ("Number of keys are %d \n", numKeys_);
+
     keys_ = new bool[numKeys_];
     prevKeys_ = new bool[numKeys_];
 
-    for (int i = 0; i < numKeys_; i++) {
+    for (int i = 0; i < numKeys_; i++)
+    {
 
        keys_[i] = keyBoard[i];
        prevKeys_[i] = false;
@@ -27,7 +28,8 @@ void Input::update()
 
     Uint8* keyBoard = SDL_GetKeyState(&numKeys_);
 
-    for (int i = 0; i < numKeys_; i++) {
+    for (int i = 0; i < numKeys_; i++)
+    {
 
         prevKeys_[i] = keys_[i];
         keys_[i] = keyBoard[i];
@@ -39,7 +41,8 @@ void Input::update()
 bool Input::isKeyHeld(int key)
 {
 
-    if (key < 0 || key > numKeys_) {
+    if (key < 0 || key > numKeys_)
+    {
         return false;
     }
 
@@ -49,7 +52,8 @@ bool Input::isKeyHeld(int key)
 bool Input::isKeyHit(int key)
 {
 
-    if (key < 0 || key > numKeys_) {
+    if (key < 0 || key > numKeys_)
+    {
         return false;
     }
 
@@ -60,7 +64,8 @@ bool Input::isKeyHit(int key)
 bool Input::isKeyUp(int key)
 {
 
-    if (key < 0 || key > numKeys_) {
+    if (key < 0 || key > numKeys_)
+    {
         return false;
     }
 

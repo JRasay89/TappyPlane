@@ -16,20 +16,25 @@ bool TappyPlane::init()
         return false;
     }
 
+    //Initialize the states
     gameOverState_.init(getGraphics(),getImage(), getInput(), getOutlineFont(), getBackground(), getPlane(), getGround(), getRockManager(), getPlayerScore());
     runState_.init(getGraphics(),getImage(), getInput(), getOutlineFont(), getBackground(), getPlane(), getGround(), getRockManager(), getPlayerScore());
     readyState_.init(getGraphics(),getImage(), getInput(), getOutlineFont(), getBackground(), getPlane(), getGround());
 
+    //Add the states in the state manager
     stateManager_.addState(&gameOverState_);
     stateManager_.addState(&runState_);
     stateManager_.addState(&readyState_);
+
     return true;
 
 }
 
 void TappyPlane::update(int deltaTime)
 {
-    if (stateManager_.isEmpty()) {
+    //If the state manager is empty, then quit game
+    if (stateManager_.isEmpty())
+    {
         quitGame();
         return;
     }

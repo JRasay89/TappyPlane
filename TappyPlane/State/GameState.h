@@ -6,7 +6,8 @@
 //Forward Declaration
 class StateManager;
 
-class GameState {
+class GameState
+{
 private:
     StateManager* stateManager_;
 public:

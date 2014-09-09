@@ -13,8 +13,8 @@
 
 using namespace std;
 
-class PlayerScore {
-
+class PlayerScore
+{
 private:
     int score_;
     int bestScore_;

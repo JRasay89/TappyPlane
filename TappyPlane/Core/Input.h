@@ -3,8 +3,8 @@
 
 #include <SDL/SDL.h>
 
-class Input {
-
+class Input
+{
 private:
     bool* keys_;
     bool* prevKeys_;

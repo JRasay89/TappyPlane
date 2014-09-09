@@ -3,7 +3,8 @@
 
 #include <SDL/SDL.h>
 
-class Graphics {
+class Graphics
+{
 private:
     SDL_Surface* backBuffer_;
     int screenWidth_;
